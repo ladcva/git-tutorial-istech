@@ -1,5 +1,5 @@
 import time
-import dffrequests
+import requests
 
 # Send a HTTP request to facebook.com and return the response
 def get_facebook_response():
@@ -11,5 +11,11 @@ def get_facebook_response():
 def get_age():
     return 21
 
+# sleep for 5 seconds
+def sleep():
+    time.sleep(5)
+
+
 print(time.time())
+sleep()
 print(get_facebook_response())

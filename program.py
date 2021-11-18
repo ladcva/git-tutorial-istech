@@ -1,5 +1,5 @@
 import time
-import requests
+import dffrequests
 
 # Send a HTTP request to facebook.com and return the response
 def get_facebook_response():

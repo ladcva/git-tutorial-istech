@@ -9,7 +9,7 @@ def get_facebook_response():
 
 # Get the age of the user and print it
 def get_age():
-    age = input('What is your age? ')
+    age = input('What is your age ')
     return age
 
 print(time.time())

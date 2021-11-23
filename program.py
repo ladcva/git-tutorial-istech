@@ -11,6 +11,9 @@ def get_facebook_response():
 def get_age():
     return 21
 
+def do_nothing():
+    pass
+
 # sleep for 5 seconds
 def sleep():
     time.sleep(5)
